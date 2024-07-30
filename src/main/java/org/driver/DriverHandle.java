@@ -21,6 +21,7 @@ public class DriverHandle {
 	public void launch() {
 		
 		driver.manage().window().maximize();
+		
 		driver.get("https://www.amazon.in/");
 		
 	}
