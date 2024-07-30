@@ -19,6 +19,7 @@ public class DriverHandle {
 	
 	@BeforeSuite
 	public void launch() {
+		
 		driver.manage().window().maximize();
 		
 		
@@ -27,7 +28,7 @@ public class DriverHandle {
 	}
 	@AfterSuite
 	public void closing() throws InterruptedException {
-	//	Thread.sleep(3000);
+		Thread.sleep(3000);
 		driver.quit();
 		
 	}
