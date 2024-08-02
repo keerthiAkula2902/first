@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class DriverHandle {
 
 	public static WebDriver driver=new ChromeDriver();
-	//driver.
+	//driver. handle
 	
 	@BeforeSuite
 	public void launch() {
