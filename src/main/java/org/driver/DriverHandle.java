@@ -21,7 +21,7 @@ public class DriverHandle {
 	public void launch() {
 		
 		driver.manage().window().maximize();
-		
+		System.out.println("shgs");
 		driver.get("https://www.amazon.in/");
 		
 	}
