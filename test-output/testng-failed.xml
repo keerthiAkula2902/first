@@ -7,6 +7,8 @@
         <methods>
           <include name="loginTest"/>
           <include name="launch"/>
+          <include name="titleTest"/>
+          <include name="addingItems"/>
           <include name="closing"/>
         </methods>
       </class> <!-- org.mytests.MyTests -->

@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-30T18:04:25 IST" name="Default suite" finished-at="2024-07-30T18:04:29 IST" duration-ms="4645">
+  <suite started-at="2024-08-07T16:19:11 IST" name="Default suite" finished-at="2024-08-07T16:19:19 IST" duration-ms="7817">
     <groups>
     </groups>
-    <test started-at="2024-07-30T18:04:25 IST" name="Default test" finished-at="2024-07-30T18:04:29 IST" duration-ms="4645">
+    <test started-at="2024-08-07T16:19:11 IST" name="Default test" finished-at="2024-08-07T16:19:19 IST" duration-ms="7817">
       <class name="org.mytests.MyTests">
-        <test-method is-config="true" signature="launch()[pri:0, instance:org.mytests.MyTests@78dc4696]" started-at="2024-07-30T18:04:18 IST" name="launch" finished-at="2024-07-30T18:04:25 IST" duration-ms="6499" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.mytests.MyTests@2e6ba49a]" started-at="2024-08-07T16:19:09 IST" name="launch" finished-at="2024-08-07T16:19:11 IST" duration-ms="2258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="loginTest()[pri:0, instance:org.mytests.MyTests@78dc4696]" started-at="2024-07-30T18:04:25 IST" name="loginTest" finished-at="2024-07-30T18:04:29 IST" duration-ms="4591" status="PASS">
+        <test-method signature="titleTest()[pri:0, instance:org.mytests.MyTests@2e6ba49a]" started-at="2024-08-07T16:19:11 IST" name="titleTest" finished-at="2024-08-07T16:19:11 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="loginTest()[pri:0, instance:org.mytests.MyTests@2e6ba49a]" started-at="2024-08-07T16:19:11 IST" name="loginTest" finished-at="2024-08-07T16:19:18 IST" depends-on-methods="org.mytests.MyTests.titleTest" duration-ms="6887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="closing()[pri:0, instance:org.mytests.MyTests@78dc4696]" started-at="2024-07-30T18:04:29 IST" name="closing" finished-at="2024-07-30T18:04:33 IST" duration-ms="3476" status="PASS">
+        <test-method signature="addingItems()[pri:0, instance:org.mytests.MyTests@2e6ba49a]" started-at="2024-08-07T16:19:18 IST" name="addingItems" finished-at="2024-08-07T16:19:19 IST" depends-on-methods="org.mytests.MyTests.loginTest" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingItems -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:org.mytests.MyTests@2e6ba49a]" started-at="2024-08-07T16:19:19 IST" name="closing" finished-at="2024-08-07T16:19:22 IST" duration-ms="3012" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closing -->

@@ -14,9 +14,21 @@ public class MyTests extends DriverHandle {
 	private static final Logger logger = LogManager.getLogger(MyTests.class);
 
 	@Test
+	public void titleTest() {
+		mf.getTitle();
+
+	}
+
+	@Test(dependsOnMethods = "titleTest")
 	public void loginTest() throws IOException {
 		// logger.info("*********logging the logs");
 		mf.loginM();
+
+	}
+
+	@Test(dependsOnMethods = "loginTest")
+	public void addingItems() throws IOException {
+		mf.addItems();
 
 	}
 
